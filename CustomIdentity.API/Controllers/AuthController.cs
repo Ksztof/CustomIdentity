@@ -91,7 +91,7 @@ namespace CustomIdentity.API.Controllers
 		}
 
 
-		[HttpPost]
+		[HttpPut]
 		[Authorize(Roles = "USER")]
 		[Route("/Auth/UpdateLoginAndPasswordAsync/")]
 		public async Task<IActionResult> UpdateLoginAndPasswordAsync([FromBody] UpdateLoginAndPasswordM updateLoginAndPasswordM)
@@ -136,7 +136,7 @@ namespace CustomIdentity.API.Controllers
 		}
 
 
-		[HttpPost]
+		[HttpDelete]
 		[Authorize(Roles = "USER")]
 		[Route("/Auth/ConfirmAccountDeletionAsync/")]
 		public async Task<IActionResult> ConfirmAccountDeletionAsync([FromBody] ChooseAccountToDeleteM chooseAccountToDeleteM)
