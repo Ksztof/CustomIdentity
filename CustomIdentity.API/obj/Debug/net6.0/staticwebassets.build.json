@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "X3fbNeEKY0iXLZPkbebgiONMCCskcSKDcztYh0kTGfk=",
+  "Source": "CustomIdentity.API",
+  "BasePath": "_content/CustomIdentity.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

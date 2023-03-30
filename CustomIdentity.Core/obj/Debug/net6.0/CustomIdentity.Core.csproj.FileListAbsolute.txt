@@ -1,0 +1,15 @@
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\bin\Debug\net6.0\CustomIdentity.Core.deps.json
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\bin\Debug\net6.0\CustomIdentity.Core.dll
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\bin\Debug\net6.0\CustomIdentity.Core.pdb
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\bin\Debug\net6.0\CustomIdentity.Domain.dll
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\bin\Debug\net6.0\CustomIdentity.Domain.pdb
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\obj\Debug\net6.0\CustomIdentity.Core.csproj.AssemblyReference.cache
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\obj\Debug\net6.0\CustomIdentity.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\obj\Debug\net6.0\CustomIdentity.Core.AssemblyInfoInputs.cache
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\obj\Debug\net6.0\CustomIdentity.Core.AssemblyInfo.cs
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\obj\Debug\net6.0\CustomIdentity.Core.csproj.CoreCompileInputs.cache
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\obj\Debug\net6.0\CustomIdentity.Core.csproj.CopyComplete
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\obj\Debug\net6.0\CustomIdentity.Core.dll
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\obj\Debug\net6.0\refint\CustomIdentity.Core.dll
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\obj\Debug\net6.0\CustomIdentity.Core.pdb
+C:\Users\PeklerFix\source\repos\CustomIdentity\CustomIdentity.Core\obj\Debug\net6.0\ref\CustomIdentity.Core.dll

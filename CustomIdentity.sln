@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{812B6EA2-1B25-4619-A662-1C16A4978767}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\CustomIdentityERD.pdf = ..\..\..\Downloads\CustomIdentityERD.pdf
+		insertBD.txt = insertBD.txt
+		packages.txt = packages.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomIdentity.API", "CustomIdentity.API\CustomIdentity.API.csproj", "{6AAD0280-41C7-4D4F-BA69-16E023A012D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomIdentity.Core", "CustomIdentity.Core\CustomIdentity.Core.csproj", "{EF7222D1-D7D2-40FB-B748-DC4EE4F74E5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomIdentity.Domain", "CustomIdentity.Domain\CustomIdentity.Domain.csproj", "{2890F68D-06FA-470D-B153-7E7C52532AC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AAD0280-41C7-4D4F-BA69-16E023A012D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAD0280-41C7-4D4F-BA69-16E023A012D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAD0280-41C7-4D4F-BA69-16E023A012D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAD0280-41C7-4D4F-BA69-16E023A012D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7222D1-D7D2-40FB-B748-DC4EE4F74E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7222D1-D7D2-40FB-B748-DC4EE4F74E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7222D1-D7D2-40FB-B748-DC4EE4F74E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7222D1-D7D2-40FB-B748-DC4EE4F74E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2890F68D-06FA-470D-B153-7E7C52532AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2890F68D-06FA-470D-B153-7E7C52532AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2890F68D-06FA-470D-B153-7E7C52532AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2890F68D-06FA-470D-B153-7E7C52532AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79569252-B367-4704-8223-A80F0E26D0CF}
+	EndGlobalSection
+EndGlobal

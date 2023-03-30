@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CustomIdentity.API",
+    "\\CustomIdentity.API\\Controllers",
+    "\\CustomIdentity.Core",
+    "\\CustomIdentity.Domain"
+  ],
+  "SelectedNode": "\\CustomIdentity.API\\CustomIdentity.API.sln",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,14 @@
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\bin\Debug\net6.0\Zlappka.Domain.deps.json
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\bin\Debug\net6.0\Zlappka.Domain.dll
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\bin\Debug\net6.0\Zlappka.Domain.pdb
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\obj\Debug\net6.0\Zlappka.Domain.csproj.AssemblyReference.cache
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\obj\Debug\net6.0\Zlappka.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\obj\Debug\net6.0\Zlappka.Domain.AssemblyInfoInputs.cache
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\obj\Debug\net6.0\Zlappka.Domain.AssemblyInfo.cs
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\obj\Debug\net6.0\Zlappka.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\obj\Debug\net6.0\Zlappka.Domain.dll
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\obj\Debug\net6.0\refint\Zlappka.Domain.dll
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\obj\Debug\net6.0\Zlappka.Domain.pdb
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\obj\Debug\net6.0\ref\Zlappka.Domain.dll
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\bin\Debug\net6.0\Zlappka.Domain.runtimeconfig.json
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Domain\obj\Debug\net6.0\Zlappka.Domain.genruntimeconfig.cache

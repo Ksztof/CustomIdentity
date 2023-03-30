@@ -1,0 +1,15 @@
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\bin\Release\net6.0\Zlappka.Core.deps.json
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\bin\Release\net6.0\Zlappka.Core.dll
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\bin\Release\net6.0\Zlappka.Core.pdb
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\bin\Release\net6.0\Zlappka.Domain.dll
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\bin\Release\net6.0\Zlappka.Domain.pdb
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\obj\Release\net6.0\Zlappka.Core.csproj.AssemblyReference.cache
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\obj\Release\net6.0\Zlappka.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\obj\Release\net6.0\Zlappka.Core.AssemblyInfoInputs.cache
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\obj\Release\net6.0\Zlappka.Core.AssemblyInfo.cs
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\obj\Release\net6.0\Zlappka.Core.csproj.CoreCompileInputs.cache
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\obj\Release\net6.0\Zlappka.Core.csproj.CopyComplete
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\obj\Release\net6.0\Zlappka.Core.dll
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\obj\Release\net6.0\refint\Zlappka.Core.dll
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\obj\Release\net6.0\Zlappka.Core.pdb
+C:\Users\PeklerFix\source\repos\zlapka2\Zlappka.Core\obj\Release\net6.0\ref\Zlappka.Core.dll

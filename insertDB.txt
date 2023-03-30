@@ -1,0 +1,2 @@
+insert into "UserAuthMethod" values (1,'LDAP'), (2, 'Basic');
+insert into "WebAppRole" values (1, 'USER'), (2, 'ADMIN');
