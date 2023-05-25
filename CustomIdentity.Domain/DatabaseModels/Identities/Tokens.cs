@@ -8,11 +8,14 @@ namespace CustomIdentity.Domain.DatabaseModels.Identities
 	{
 		[Key]
 		public int TokensId { get; set; }
+
 		public string? RegistrationJwtToken { get; set; }
+
 		public string? RefreshJwtToken { get; set; }
 
 		[ForeignKey("UserCredential")]
 		public int? UserCredentialsId { get; set; }
+
 		public UserCredentials? UserCredential { get; set; }
 	}
 

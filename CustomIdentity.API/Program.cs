@@ -12,8 +12,6 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
 using System.Text;
-using Microsoft.Extensions.Configuration;
-
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -59,7 +57,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 // Add database context
 builder.Services.AddDbContext<CustomIdentityDb>(options =>
-	options.UseNpgsql("User ID=postgres;Password=\"haslo1234\";Server=localhost;Port=5432;Database=CustomIdentityDb;"));
+	options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 // Add authorization
@@ -88,7 +86,6 @@ app.UseAuthorization();
 
 // Use JwtMiddleware
 app.UseMiddleware<JwtMiddleware>();
-
 
 // Map controllers
 app.MapControllers();

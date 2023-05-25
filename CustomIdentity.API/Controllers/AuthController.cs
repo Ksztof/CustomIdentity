@@ -7,9 +7,9 @@ using CustomIdentity.Domain.DatabaseModels.Identities;
 
 namespace CustomIdentity.API.Controllers
 {
-	[Route("/Auth")]
+	[Route("[controller]")]
 	[ApiController]
-	public class AuthController : ControllerBase, IAuthController
+	public class AuthController : ControllerBase
 	{
 		private readonly IAuthService _authService;
 
@@ -18,10 +18,8 @@ namespace CustomIdentity.API.Controllers
 			_authService = authService;
 		}
 
-
-
 		[HttpPost]
-		[Route("/Auth/SignUpAsync/")]
+		[Route("SignUpAsync/")]
 		public async Task<IActionResult> SignUpAsync([FromBody] SignUpM signUp)
 		{
 			ActionResultM<User> signIn = await _authService.SignUpAsync(signUp);
@@ -33,9 +31,8 @@ namespace CustomIdentity.API.Controllers
 			return Ok(signIn.Message);
 		}
 
-
 		[HttpGet]
-		[Route("/Auth/VerifyRegistrationTokenAsync/{emailVerificationToken}/")]
+		[Route("VerifyRegistrationTokenAsync/{emailVerificationToken}/")]
 		public async Task<IActionResult> VerifyRegistrationTokenAsync(string emailVerificationToken)
 		{
 			ActionResultM<User> verifyToken = await _authService.VerifyTokenAsync(emailVerificationToken);
@@ -47,9 +44,8 @@ namespace CustomIdentity.API.Controllers
 			return Ok(verifyToken.Message);
 		}
 
-
 		[HttpPost]
-		[Route("/Auth/RefreshRegistrationTokenAsync/{userEmail}/")]
+		[Route("RefreshRegistrationTokenAsync/{userEmail}/")]
 		public async Task<IActionResult> RefreshRegistrationTokenAsync(string userEmail)
 		{
 			ActionResultM<User> refreshToken = await _authService.RefreshRegistrationTokenAsync(userEmail);
@@ -61,9 +57,8 @@ namespace CustomIdentity.API.Controllers
 			return Ok(refreshToken.Message);
 		}
 
-
 		[HttpPost]
-		[Route("/Auth/SignInAsync/")]
+		[Route("SignInAsync/")]
 		public async Task<IActionResult> SignInAsync([FromBody] SignInM signInM)
 		{
 			ActionResultM<User> assignTokens = await _authService.GiveTokensAsync(signInM);
@@ -75,10 +70,9 @@ namespace CustomIdentity.API.Controllers
 			return Ok();
 		}
 
-
 		[HttpPost]
 		[Authorize]
-		[Route("/Auth/LogoutAsync/")]
+		[Route("LogoutAsync/")]
 		public async Task<IActionResult> LogoutAsync()
 		{
 			ActionResultM<User> logout = await _authService.LogoutAsync();
@@ -90,10 +84,9 @@ namespace CustomIdentity.API.Controllers
 			return Ok("Logged out");
 		}
 
-
 		[HttpPut]
 		[Authorize(Roles = "USER")]
-		[Route("/Auth/UpdateLoginAndPasswordAsync/")]
+		[Route("UpdateLoginAndPasswordAsync/")]
 		public async Task<IActionResult> UpdateLoginAndPasswordAsync([FromBody] UpdateLoginAndPasswordM updateLoginAndPasswordM)
 		{
 			ActionResultM<User> updateCredentials = await _authService.UpdateLoginAndPasswordAsync(updateLoginAndPasswordM);
@@ -105,10 +98,9 @@ namespace CustomIdentity.API.Controllers
 			return Ok("Account updated");
 		}
 
-
 		[HttpPost]
 		[Authorize(Roles = "USER")]
-		[Route("/Auth/DeleteAccountAsync/")]
+		[Route("DeleteAccountAsync/")]
 		public async Task<IActionResult> DeleteAccountAsync()
 		{
 			ActionResultM<User> deleteAccount = await _authService.DeleteAccountAsync();
@@ -120,10 +112,9 @@ namespace CustomIdentity.API.Controllers
 			return Ok(deleteAccount.Message);
 		}
 
-
 		[HttpGet]
 		[Authorize(Roles = "USER")]
-		[Route("/Auth/ConfirmAccountDeletionAsync/")]
+		[Route("ConfirmAccountDeletionAsync/")]
 		public async Task<IActionResult> ConfirmAccountDeletionAsync()
 		{
 			ActionResultM<IAsyncEnumerable<AccountsToDeleteM>> getDeletedAcc = await _authService.GetDeletedAccountsAsync();
@@ -135,10 +126,9 @@ namespace CustomIdentity.API.Controllers
 			return Ok(getDeletedAcc.Data);
 		}
 
-
 		[HttpDelete]
 		[Authorize(Roles = "USER")]
-		[Route("/Auth/ConfirmAccountDeletionAsync/")]
+		[Route("ConfirmAccountDeletionAsync/")]
 		public async Task<IActionResult> ConfirmAccountDeletionAsync([FromBody] ChooseAccountToDeleteM chooseAccountToDeleteM)
 		{
 			ActionResultM<User> confirmDeletion = await _authService.ConfirmAccountDeletionAsync(chooseAccountToDeleteM.AccountId);
@@ -149,8 +139,5 @@ namespace CustomIdentity.API.Controllers
 
 			return Ok("Account has been successfully deleted");
 		}
-
-
 	}
 }
-

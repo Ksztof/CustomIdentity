@@ -13,19 +13,25 @@
 			Status = ActionStatus.Success;
 		}
 
-		public ActionResultM(string _status, string _message)
+		public ActionResultM(ActionStatus status, string message)
 		{
-			if (_status == "OK")
-			{
-				Message = _message;
-				Status = ActionStatus.Success;
-			}
-			else
-			{
-				Message = _message;
-				Status = ActionStatus.Error;
-			}
+			Status = status;
+			Message = message;
 		}
+
+		//public ActionResultM(string _status, string _message)
+		//{
+		//	if (_status == "OK")
+		//	{
+		//		Message = _message;
+		//		Status = ActionStatus.Success;
+		//	}
+		//	else
+		//	{
+		//		Message = _message;
+		//		Status = ActionStatus.Error;
+		//	}
+		//}
 
 		public ActionResultM(string _message)
 		{
